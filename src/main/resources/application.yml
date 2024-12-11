@@ -1,0 +1,12 @@
+
+spring:
+  application:
+  name: warmwind-ai
+  ai:
+    dashscope:
+      api-key: sk-7f3e1b19e3134e5598ebacc0efb261dd
+      chat:
+        options:
+          model: qwen-max
+server:
+  port: 8888
